@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.640adddf.css",
-    "main.js": "/static/js/main.d6bc83c9.js",
+    "main.css": "/static/css/main.242d0421.css",
+    "main.js": "/static/js/main.162d7540.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Flexi Wheel.PNG": "/static/media/Flexi Wheel.a7b8140a35c5e7e5af10.PNG",
     "static/media/Athropologie.PNG": "/static/media/Athropologie.3106b71f760d799b290c.PNG",
     "static/media/myphoto.jpg": "/static/media/myphoto.553d382fd54e79bcb094.jpg",
     "static/media/Beutiquee.PNG": "/static/media/Beutiquee.50887bca91d787ccfec5.PNG",
     "index.html": "/index.html",
-    "main.640adddf.css.map": "/static/css/main.640adddf.css.map",
-    "main.d6bc83c9.js.map": "/static/js/main.d6bc83c9.js.map",
+    "main.242d0421.css.map": "/static/css/main.242d0421.css.map",
+    "main.162d7540.js.map": "/static/js/main.162d7540.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.640adddf.css",
-    "static/js/main.d6bc83c9.js"
+    "static/css/main.242d0421.css",
+    "static/js/main.162d7540.js"
   ]
 }
