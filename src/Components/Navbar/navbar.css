@@ -1,0 +1,241 @@
+.navbar {
+  width: 100%;
+
+  background-color: #003140;
+  backdrop-filter: blur(12px) saturate(180%);
+  position: fixed;
+  z-index: 100;
+  font-size: 18px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#logo{
+  border:0px solid red;
+  width:18%;
+  border-radius:5px;
+
+}
+
+.navbarScrolled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #005685;
+  position: fixed;
+  z-index: 100;
+  font-size: 20px;
+  color: white;
+  opacity: 0.9;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.wrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border: 0px solid red;
+}
+
+.wrapperLeft img {
+  margin-left: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+.wrapperLeft{
+  width: 150px;
+  border:0px solid red;
+  margin-left: 20px;
+
+}
+
+.wrapperRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  border:0px solid red;
+  margin-right: 20px;
+  gap: 15px;
+}
+
+.navbar-resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 125px;
+  text-align: center;
+  color: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.navbar-resume:hover {
+  color: white;
+  /* background: rgb(121, 114, 232); */
+   background: linear-gradient(
+    90deg,
+    #185d6a,
+    #365fb1, 
+    #27ba8c
+    );  
+  /* background: #0c6216; */
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.wrapperRight a {
+  color: white;
+  font-weight: bold;
+}
+.wrapperRight a:hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  color: black;
+  font-weight: bold;
+}
+.my-name{
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* width: 125px; */
+  text-align: center;
+  color: #1a1a1a;
+  padding: 3px;
+  border-radius: 10px;
+  font-style: normal;
+  cursor: pointer;
+  border: 0px solid blue;
+}
+.my-name:hover{
+  /* background: rgb(121, 114, 232); */
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
+  
+}
+ .responce {
+  border: 0px solid blue;
+  display: none;
+}
+
+ @media all and (min-width: 768px) and (max-width: 1024px) {
+  /* .wrapperRight {
+      display: none;
+  }
+
+  .responce {
+    margin-right: 40px;
+    display: block;
+    font-size: 30px;
+  } */
+
+  .drawerbody {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .drawerbody a:hover {
+    cursor: pointer;
+    color: #6a6a6a;
+  }
+
+   .navbar-resume {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+
+  .navbar-resume:hover {
+    background: rgb(121, 114, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(121, 114, 232, 1) 0%,
+    rgba(91, 91, 236, 1) 44%,
+    rgba(26, 150, 236, 1) 99%
+  );
+  }
+}
+@media all and (min-width: 568px) and (max-width: 768px) {
+  .wrapperRight {
+    display: none;
+}
+
+.responce {
+  margin-right: 20px;
+  display: block;
+  font-size: 30px;
+}
+}
+ @media all and (min-width: 280px) and (max-width: 767px) {
+   /* .wrapperRight {
+      display: none; 
+  }  */
+  .wrapperRight {
+    display: none;
+}
+
+.responce {
+  margin-right: 40px;
+  display: block;
+  font-size: 30px;
+}
+  .wrapper {
+
+    width: 100%;
+    border: 0px solid red;
+  }
+
+  .responce {
+    margin-right: 20px;
+    display: block;
+    font-size: 30px;
+  }
+
+  .drawerbody {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+  }
+
+  .drawerbody a:hover {
+    cursor: pointer;
+    color: #6a6a6a;
+  }
+
+  .navbar-resume {
+    background-color: #1a1a1a;
+    color: white;
+  }
+ 
+  .navbar-resume:hover {
+    background: repeating-linear-gradient(
+      rgba(181, 68, 63, 1) 0%,
+      rgba(176, 66, 70, 1) 60%,
+      rgb(116, 43, 111) 100%
+    );
+  }
+}
