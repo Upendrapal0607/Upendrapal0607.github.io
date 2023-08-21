@@ -48,17 +48,18 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if (name !== "" || email !== "" || message !== "") {
-            // emailjs
-            //     .sendForm(
-            //         "service_nkw8ti", //YOUR_SERVICE_ID
-            //         "template_can7fv", //YOUR_TEMPLATE_ID
-            //         e.target,
-            //         "73_-qTWrUzxfELam" //YOUR_PUBLIC_KEY
-            //     )
-            //     .then(
-            //         (result) => {
-            //             console.log(name, email, message);
+        if (name != "" && email != "" && message != "") {
+            emailjs
+                .sendForm(
+                    "service_tko8fcf", 
+                    "template_jlfd1d7",
+                    e.target,
+                    "vJ2rBqYwjuIIzDf0M" 
+                )
+               
+                .then(
+                    (result) => {
+                        console.log(name, email, message);
                         toast({
                             title: "Message sent",
                             description:
@@ -71,20 +72,20 @@ function Contact() {
                         setName("");
                         setEmail("");
                         setMessage("");
-                        // console.log(result.text);
-                    // },
-                    // (error) => {
-                //         toast({
-                //             title: "Error occurred",
-                //             description: "Something went wrong",
-                //             status: "error",
-                //             duration: 2500,
-                //             isClosable: true,
-                //             position: "top",
-                //         });
-                //         console.log(error.text);
-                //     }
-                // );
+                        console.log(result.text);
+                    },
+                    (error) => {
+                        toast({
+                            title: "Error occurred",
+                            description: "Something went wrong",
+                            status: "error",
+                            duration: 2500,
+                            isClosable: true,
+                            position: "top",
+                        });
+                        console.log(error.text);
+                    }
+                );
         } else if (name === "" || email === "" || message === "") {
             toast({
                 title: "Please fill all details !",
@@ -137,56 +138,109 @@ function Contact() {
                                         pl={0}
                                        
                                         textAlign="left">
-                                        <Button
+                                          <Button
                                           
-                                            border={"2px solid transparent"}
-                                            size="md"
-                                            height="48px"
-                                            width="80%"
-                                            variant="ghost"
-                                            color="#DCE2FF"
-                                            textAlign="left"
-                                            id="contact-phone"
-                                            _hover={{
-                                                border: "2px solid rgba(255, 255, 255, 0.125)",
-                                            }}
-                                            onClick={() =>
-                                                openLink("tel:9767599972")
-                                            }
-                                            leftIcon={
-                                                <MdPhone
-                                                    color="#8f3e41"
-                                                    size="20px"
-                                                />
-                                            }>
-                                            +919569892524
-                                        </Button>
-                                        <Button
-                                           
-                                            border={"2px solid transparent"}
-                                            size="md"
-                                            height="48px"
-                                            width="80%"
-                                            variant="ghost"
-                                            color="#DCE2FF"
-                                            id="contact-email"
-                                            textAlign="left"
-                                            _hover={{
-                                                border: "2px solid rgba(255, 255, 255, 0.125)",
-                                            }}
-                                            onClick={() =>
-                                                openLink(
-                                                    "mailto:up06072000@gmail.com"
-                                                )
-                                            }
-                                            leftIcon={
-                                                <MdEmail
-                                                    color="#8f3e41"
-                                                    size="20px"
-                                                />
-                                            }>
-                                            up06072000@gmail.com
-                                        </Button>
+                                          border={"2px solid transparent"}
+                                          size="md"
+                                          height="48px"
+                                          width="80%"
+                                          variant="ghost"
+                                          color="#DCE2FF"
+                                          textAlign="left"
+                                          id="contact-phone"
+                                          _hover={{
+                                              border: "2px solid rgba(255, 255, 255, 0.125)",
+                                          }}
+                                          onClick={() =>
+                                              openLink("tel:9569892524")
+                                          }
+                                          leftIcon={
+                                              <MdPhone
+                                                  color="#8f3e41"
+                                                  size="20px"
+                                              />
+                                          }>
+                                          +919569892524
+                                      </Button>
+                                      <Button
+                                        
+                                        border={"2px solid transparent"}
+                                        size="md"
+                                        height="48px"
+                                        width="80%"
+                                        variant="ghost"
+                                        color="#DCE2FF"
+                                        textAlign="left"
+                                        id="contact-phone"
+                                        _hover={{
+                                            border: "2px solid rgba(255, 255, 255, 0.125)",
+                                        }}
+                                        onClick={() =>
+                                            openLink("tel:9682968386")
+                                        }
+                                        leftIcon={
+                                            <MdPhone
+                                                color="#8f3e41"
+                                                size="20px"
+                                            />
+                                        }>
+                                          
+                                        +919682968386
+                                    </Button>
+                                   
+                                   
+                                      <Button
+                                         
+                                          border={"2px solid transparent"}
+                                          size="md"
+                                          height="48px"
+                                          width="80%"
+                                          variant="ghost"
+                                          color="#DCE2FF"
+                                          id="contact-email"
+                                          textAlign="left"
+                                          _hover={{
+                                              border: "2px solid rgba(255, 255, 255, 0.125)",
+                                          }}
+                                          onClick={() =>
+                                              openLink(
+                                                  "mailto:up06072000@gmail.com"
+                                              )
+                                          }
+                                          leftIcon={
+                                              <MdEmail
+                                                  color="#8f3e41"
+                                                  size="20px"
+                                              />
+                                          }>
+                                          up06072000@gmail.com
+                                      </Button>
+                                      <Button
+                                         
+                                          border={"2px solid transparent"}
+                                          size="md"
+                                          height="48px"
+                                          width="80%"
+                                          variant="ghost"
+                                          color="#DCE2FF"
+                                          id="contact-email"
+                                          textAlign="left"
+                                          _hover={{
+                                              border: "2px solid rgba(255, 255, 255, 0.125)",
+                                          }}
+                                          onClick={() =>
+                                              openLink(
+                                                  "mailto:upendrapal06072@gmail.com"
+                                              )
+                                          }
+                                          leftIcon={
+                                              <MdEmail
+                                                  color="#8f3e41"
+                                                  size="20px"
+                                              />
+                                          }>
+                                          upendrapal06072@gmail.com
+                                      </Button>
                                         {/* <Button
                                         
                                             border={"2px solid transparent"}
@@ -226,7 +280,7 @@ function Contact() {
                                         isRound={true}
                                         onClick={() =>
                                             openLink(
-                                                "https://www.facebook.com/prashant.sathawane.31/"
+                                                "https://www.facebook.com/upendra.pal.31/"
                                             )
                                         }
                                         _hover={{
@@ -291,7 +345,7 @@ function Contact() {
                                         }}
                                         onClick={() =>
                                             openLink(
-                                                "https://www.instagram.com/prashant_sathawane/"
+                                                "https://www.instagram.com/upendra_pal/"
                                             )
                                         }
                                         icon={
@@ -344,7 +398,7 @@ function Contact() {
                                             style={{
                                                 margin: "20px 0px 0px 0px",
                                             }}>
-                                            Email
+                                            Your Email
                                         </FormLabel>
                                         <InputGroup borderColor="#E0E1E7">
                                             <InputLeftElement

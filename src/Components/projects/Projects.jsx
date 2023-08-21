@@ -7,6 +7,7 @@ import Flexiwheel from "../../Images/FlexiWheel.PNG"
 import Anthropologie from "../../Images/Anthropologie.PNG"
 import Beutiquee from "../../Images/Beutiquee.PNG"
 import taxtim from "../../Images/taxtim.PNG"
+import alphaFinance from "../../Images/alphaFinance.PNG"
 
 function Projects() {
     const openLink = (url) => {
@@ -415,8 +416,8 @@ function Projects() {
                         className="project-card-container">
                         <div className="project-img">
                             <img
-                                src={taxtim}
-                                alt="Flexi Wheel"
+                                src={alphaFinance}
+                                alt="alphaFinance"
                             />
                         </div>
                         <div className="project-card-text">

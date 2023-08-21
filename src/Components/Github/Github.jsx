@@ -72,7 +72,7 @@ const GitHub = ({ colorMode }) => {
           <Image
             id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=Upendrapal0607&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=#a084ca"
-            alt="prashant-stats"
+            alt="upendra-stats"
           />
         </div>
 
@@ -83,7 +83,7 @@ const GitHub = ({ colorMode }) => {
           <Image
             id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=Upendrapal0607&show_icons=true&title_color=#4c3575&text_color=#4c3575&icon_color=#4c3575&bg_color=red&border_radius=10&border_color=#4c3575"
-            alt="prashant-status"
+            alt="upendra-status"
           />
         </div>
 
