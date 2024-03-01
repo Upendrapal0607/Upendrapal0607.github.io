@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.21672ee5.css",
-    "main.js": "/static/js/main.3659a89b.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "main.css": "/static/css/main.c28edbf1.css",
+    "main.js": "/static/js/main.5ad6d20d.js",
+    "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
+    "static/media/my-youtube.png": "/static/media/my-youtube.3231cf194e4c157edc50.png",
     "static/media/FlexiWheel.PNG": "/static/media/FlexiWheel.24dbff610a87a3042200.PNG",
     "static/media/Anthropologie.PNG": "/static/media/Anthropologie.30f73c81ec762fb1d7ea.PNG",
     "static/media/Beutiquee.PNG": "/static/media/Beutiquee.014c87d5f4b948e45adf.PNG",
+    "static/media/alphaFinance2.png": "/static/media/alphaFinance2.100f3671a88107ba76e1.png",
     "static/media/taxtim.PNG": "/static/media/taxtim.9c2aac0fe8b47d37e808.PNG",
-    "static/media/alphaFinance.PNG": "/static/media/alphaFinance.b6002577b9936d0f1a8e.PNG",
+    "static/media/alphaFinance.png": "/static/media/alphaFinance.9d38c72958952e3d30e9.png",
     "static/media/My Photo.jpg": "/static/media/My Photo.34ddc107e371a6e45516.jpg",
     "index.html": "/index.html",
-    "main.21672ee5.css.map": "/static/css/main.21672ee5.css.map",
-    "main.3659a89b.js.map": "/static/js/main.3659a89b.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.c28edbf1.css.map": "/static/css/main.c28edbf1.css.map",
+    "main.5ad6d20d.js.map": "/static/js/main.5ad6d20d.js.map",
+    "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21672ee5.css",
-    "static/js/main.3659a89b.js"
+    "static/css/main.c28edbf1.css",
+    "static/js/main.5ad6d20d.js"
   ]
 }
