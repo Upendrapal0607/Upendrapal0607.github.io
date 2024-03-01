@@ -2,7 +2,6 @@ import { Heading } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import style from "./Skills.module.css";
 
-
 export default function Skills({ colorMode }) {
   const skillsArray = [
     {
@@ -50,7 +49,7 @@ export default function Skills({ colorMode }) {
       name: "Postman",
       logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
     },
-   
+
     {
       id: "10",
       name: "Chakra UI",
@@ -77,9 +76,6 @@ export default function Skills({ colorMode }) {
       name: "vsCode",
       logo: "https://lh5.googleusercontent.com/5ES-Ty5oZV246Psq5ABbOGxOn3MN5piHduRfeQRlXNj3aAW32v7K9rHYaSqdvOjFFfQ=w2400",
     },
-   
-   
-    
   ];
 
   return (
@@ -91,15 +87,10 @@ export default function Skills({ colorMode }) {
           fontFamily="Bree Serif, serif"
           color={"white"}
           textAlign="center"
-         
         >
           Skills
         </Heading>
-        <div
-          className="skills-card"
-          id={style.skillDiv}
-          
-        >
+        <div className="skills-card" id={style.skillDiv}>
           {skillsArray.map((skill) => (
             <div key={skill.name} className={style.skill_in_div}>
               <div className="skills-card-img" data-aos="">

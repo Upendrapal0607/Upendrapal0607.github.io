@@ -1,8 +1,8 @@
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 // import { loadFull } from "tsparticles";
-import { particlesOptions } from "./particalsConfig";
-import { Button, useColorMode } from "@chakra-ui/react";
-import { FaMoon, FaSun } from "react-icons/fa";
+// import { particlesOptions } from "./particalsConfig";
+import {  useColorMode } from "@chakra-ui/react";
+
 
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
@@ -23,7 +23,7 @@ function App() {
   //   loadFull(engine);
   // };
  
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode, toggleColorMode } = useColorMode(false);
 
   return (
       <div
@@ -34,7 +34,6 @@ function App() {
           
            
      {/* <Particles init={particlesInit} options={particlesOptions} /> */}
-        
           <Navbar colorMode={colorMode} />
           <Home colorMode={colorMode} />
           <About colorMode={colorMode} />

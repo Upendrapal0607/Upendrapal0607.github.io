@@ -11,9 +11,9 @@ import {
   Button,
 } from "@chakra-ui/react";
 import "./navbar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faBars} from "@fortawesome/free-solid-svg-icons"
- 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 import { HiDownload } from "react-icons/hi";
 import { Link } from "react-scroll";
 // import { Button } from 'react-scroll'
@@ -27,9 +27,9 @@ const NavbarDrawer = () => {
   return (
     <>
       <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-      {/* <FontAwesomeIcon icon={solid("bars")} /> */}
-      <FontAwesomeIcon icon={faBars} />
-      {/* <FontAwesomeIcon icon={faCar} /> */}
+        {/* <FontAwesomeIcon icon={solid("bars")} /> */}
+        <FontAwesomeIcon icon={faBars} />
+        {/* <FontAwesomeIcon icon={faCar} /> */}
       </Button>
       <Drawer
         isOpen={isOpen}
@@ -44,7 +44,6 @@ const NavbarDrawer = () => {
 
           <DrawerBody>
             <div className="drawerbody">
-             
               <div>
                 <Link
                   to="home"
@@ -122,26 +121,13 @@ const NavbarDrawer = () => {
                   </a>
                 </Button>
               </div>
-
-              {/* <a id="resume-link-1" href="https://drive.google.com/uc?id=1l482A6NQoXg88W5pzP1Iigl5CV-1SlsO&export=download"></a>
-                        
-                  </a>  */}
             </div>
-
-            {/* <div>
-                   
-                     
-
-                  </div> */}
-
-            {/* <Input placeholder='Type here...' /> */}
           </DrawerBody>
 
           <DrawerFooter>
             <Button variant="outline" mr={3} onClick={onClose}>
               Cancel
             </Button>
-            {/* <Button colorScheme="blue">Save</Button> */}
           </DrawerFooter>
         </DrawerContent>
       </Drawer>

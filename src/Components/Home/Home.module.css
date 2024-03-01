@@ -11,14 +11,12 @@
   padding: 12px;
   border-radius: 5px;
   margin-left: 5rem;
-
 }
 .quote > p {
   margin: auto;
   display: block;
- 
 }
-.randonimage{
+.randonimage {
   border: 0px solid red;
   margin-top: 130px;
   width: 35%;
@@ -26,7 +24,7 @@
   align-items: center;
   justify-content: center;
 }
-.randonimage>img{
+.randonimage > img {
   width: 100%;
 }
 #home {
@@ -34,13 +32,13 @@
   margin: auto;
   margin-top: 130px;
   font-family: serif;
- 
+
   /* color: #243D25; */
   color: #4c3575;
   border: 0px solid gold;
 }
 /* style={{ width: "7%", display: "inline",marginTop:"10px" }} */
-.home{
+.home {
   width: 90%;
   display: flex;
   justify-content: space-around;
@@ -48,10 +46,10 @@
   border: 0px solid green;
   margin: auto;
 }
-.spanImage{
-width: 7%;
-display: inline;
-margin-top: 10px;
+.spanImage {
+  width: 7%;
+  display: inline;
+  margin-top: 10px;
 }
 
 #myImg {
@@ -112,13 +110,13 @@ margin-top: 10px;
   border: 0px solid pink;
 }
 /* <-------Back to top buttun------> */
-.bttBtn{
-    background-color: rgb(6, 103, 187);
-    color: red;
+.bttBtn {
+  background-color: rgb(6, 103, 187);
+  color: red;
 }
 
-.bttBtn:hover{
-    background-color: red;
+.bttBtn:hover {
+  background-color: red;
 }
 /* <-------Back to top buttun------> */
 @media screen and (max-width: 1124px) and (min-width: 768px) {
@@ -169,21 +167,18 @@ margin-top: 10px;
     width: 90%;
     margin-top: 150px;
   }
-  .randonimage{
+  .randonimage {
     border: 0px solid red;
     margin-top: 30px;
     width: 70%;
   }
   #home {
     width: 90%;
-  
   }
-  .spanImage{
+  .spanImage {
     width: 12%;
- 
-    }
-  .home{
- 
+  }
+  .home {
     flex-direction: column;
   }
   .img_txt_wrapper {

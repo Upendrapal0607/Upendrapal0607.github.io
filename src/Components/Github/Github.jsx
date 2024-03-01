@@ -1,18 +1,15 @@
 import { Box, color, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
-// import ReactTooltip from "react-tooltip";
-import style from './Github.module.css'
+import style from "./Github.module.css";
 
 const GitHub = ({ colorMode }) => {
   const github = {
     margin: "auto",
-    width:"80%",
+    width: "80%",
     padding: "20px",
     borderRadius: "10px",
-    border:"1px solid #6f5a93",
-  
-  
+    border: "1px solid #6f5a93",
   };
 
   const selectLast12Months = (contributions) => {
@@ -31,15 +28,12 @@ const GitHub = ({ colorMode }) => {
       return (
         contributionTimestamp >= startTimestamp &&
         contributionTimestamp <= endTimestamp
-     );
+      );
     });
   };
 
   return (
-    <div
-      className="github-main"
-      
-    >
+    <div className="github-main">
       <Heading
         textAlign="center"
         size={"xl"}
@@ -59,16 +53,12 @@ const GitHub = ({ colorMode }) => {
           blockSize={20}
           transformData={selectLast12Months}
         >
-          {/* <ReactTooltip delayShow={20} HTML /> */}
+         
         </GitHubCalendar>
       </Box>
 
       <div className="github-stats" id={style.stat}>
-        <div
-          className={style.one}
-          fontFamily="Bree Serif, serif"
-         
-        >
+        <div className={style.one} fontFamily="Bree Serif, serif">
           <Image
             id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=Upendrapal0607&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=#a084ca"
@@ -76,10 +66,7 @@ const GitHub = ({ colorMode }) => {
           />
         </div>
 
-        <div
-          className={style.two}
-          
-        >
+        <div className={style.two}>
           <Image
             id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=Upendrapal0607&show_icons=true&title_color=#4c3575&text_color=#4c3575&icon_color=#4c3575&bg_color=red&border_radius=10&border_color=#4c3575"
@@ -87,10 +74,7 @@ const GitHub = ({ colorMode }) => {
           />
         </div>
 
-        <div
-          className={style.three}
-         
-        >
+        <div className={style.three}>
           <Image
             id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Upendrapal0607&title_color=4C3575&icon_color=#4c3575&text_color=#4c3575&bg_color=#a084ca&show_icons=true"

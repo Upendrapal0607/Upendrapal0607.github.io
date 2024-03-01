@@ -1,12 +1,11 @@
 import React from "react";
-import style from './Static.module.css'
+import style from "./Static.module.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 AOS.init();
 function Static({ colorMode }) {
-
   return (
     <section
       className={style.services_experience}
@@ -85,5 +84,3 @@ function Static({ colorMode }) {
 }
 
 export default Static;
-
- 

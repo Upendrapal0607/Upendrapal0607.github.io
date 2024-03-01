@@ -15,7 +15,7 @@
   font-family: serif;
   /* justify-content: space-between; */
   border: 0px solid green;
-   place-items: center
+  place-items: center;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
@@ -26,7 +26,7 @@
 
   width: 80%;
   padding: 10px;
-/* height: auto; */
+  /* height: auto; */
   margin-bottom: 40px;
   text-align: center;
   border-radius: 10px;
@@ -35,24 +35,23 @@
   box-shadow: #d3c7e8af 10px 10px 0px 0px;
 }
 
-.skill_in_div:nth-child(9){
+.skill_in_div:nth-child(9) {
   border: 0px solid green;
   height: 81%;
 }
-.skill_in_div:nth-child(10){
+.skill_in_div:nth-child(10) {
   border: 0px solid green;
   height: 81%;
 }
-.skill_in_div:nth-child(13){
+.skill_in_div:nth-child(13) {
   border: 0px solid green;
   height: 81%;
 }
-.skill_in_div:nth-child(12){
+.skill_in_div:nth-child(12) {
   border: 0px solid green;
   height: 81%;
 }
 .skill_in_div:hover {
-
   box-shadow: rgba(121, 114, 232, 1) 10px 10px 0px 0px;
   transform: scale(0.98);
 }
@@ -89,11 +88,10 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
-#SkillH3{
-  width: 100%;
-  margin: auto;
-}
-
+  #SkillH3 {
+    width: 100%;
+    margin: auto;
+  }
 }
 @media all and (min-width: 300px) and (max-width: 767px) {
   #skillDiv {

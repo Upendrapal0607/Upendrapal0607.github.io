@@ -48,7 +48,7 @@
   font-size: 25px;
   font-family: "Bree Serif", serif;
   font-weight: bold;
-  color:#295564;
+  color: #295564;
 }
 
 .namep {
@@ -75,13 +75,7 @@
   background-color: #295564;
 }
 #resumeDiv:hover {
-   background: linear-gradient(
-    90deg,
-    #185d6a,
-    #365fb1, 
-    #27ba8c
-    );  
- 
+  background: linear-gradient(90deg, #185d6a, #365fb1, #27ba8c);
 }
 
 .resumeButton {
@@ -106,7 +100,6 @@
     text-align: center;
   }
   #aboutDiv {
-
     width: 90%;
 
     margin-top: 30px;
@@ -120,7 +113,7 @@
   }
   #first img {
     width: 70%;
-      border: 0px solid green;
+    border: 0px solid green;
     margin: auto;
   }
   #myImg {
@@ -152,7 +145,6 @@
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-
 }
 @media all and (min-width: 300px) and (max-width: 767px) {
   #about_head {
@@ -193,7 +185,7 @@
 
   #first img {
     width: 60%;
-      border: 0px solid green;
+    border: 0px solid green;
     margin: auto;
   }
   .name:nth-child(1) {
@@ -206,51 +198,48 @@
     text-align: justify;
   }
 
-
-#resumeDiv {
-  display: flex;
-  width: 95%;
-  margin: auto;
+  #resumeDiv {
+    display: flex;
+    width: 95%;
+    margin: auto;
     margin-bottom: 20px;
-  align-items: center;
-  font-size: 15px;
-  color: #fef5ed;
+    align-items: center;
+    font-size: 15px;
+    color: #fef5ed;
 
-  padding: 3px 10px 3px 10px;
-  border-radius: 7px;
-  margin-top: 20px;
-  border: 0px solid rgb(255, 0, 230);
-  cursor: pointer;
-  font-family: serif;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 0px solid rgb(255, 0, 230);
+    cursor: pointer;
+    font-family: serif;
 
-  background-color: #4c3575;
-}
-#resumeDiv:hover {
-  background: rgb(121, 114, 232);
-  background: linear-gradient(
-    90deg,
-    rgba(121, 114, 232, 1) 0%,
-    rgba(91, 91, 236, 1) 44%,
-    rgba(26, 150, 236, 1) 99%
-  );
-}
+    background-color: #4c3575;
+  }
+  #resumeDiv:hover {
+    background: rgb(121, 114, 232);
+    background: linear-gradient(
+      90deg,
+      rgba(121, 114, 232, 1) 0%,
+      rgba(91, 91, 236, 1) 44%,
+      rgba(26, 150, 236, 1) 99%
+    );
+  }
 
-.resumeButton {
-  font-size: 22px;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  font-family: serif;
-  cursor: pointer;
-  border: 0px solid rgb(153, 255, 0);
-}
+  .resumeButton {
+    font-size: 22px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    cursor: pointer;
+    border: 0px solid rgb(153, 255, 0);
+  }
   .resumeDownloadLogo {
     font-size: 16px;
   }
 }
-#about section{
+#about section {
   border: 0px solid red;
-
-
 }
