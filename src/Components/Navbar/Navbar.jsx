@@ -76,14 +76,14 @@ function Navbar() {
           </div>
           <div>
             <a
-              href="https://drive.google.com/u/0/uc?id=1UL5u7efunj8uxtYTD3D5RZ1VnTuOZFwg&export=download"
+              href="https://drive.usercontent.google.com/u/0/uc?id=1gByzJrLm5pMtjyME1jFQCtD72YdzTHMW&export=download"
               className="nav-link resume"
               id="resume-link-1"
             >
               <div
                 onClick={() =>
                   openLink(
-                    "https://drive.google.com/file/d/1UL5u7efunj8uxtYTD3D5RZ1VnTuOZFwg/view?usp=sharing"
+                    "https://drive.google.com/file/d/1gByzJrLm5pMtjyME1jFQCtD72YdzTHMW/view?usp=sharing"
                   )
                 }
                 className="navbar-resume"
