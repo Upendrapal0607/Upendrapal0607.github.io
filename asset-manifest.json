@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c28edbf1.css",
-    "main.js": "/static/js/main.8b812342.js",
+    "main.js": "/static/js/main.4051aaf5.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/my-youtube.png": "/static/media/my-youtube.3231cf194e4c157edc50.png",
     "static/media/FlexiWheel.PNG": "/static/media/FlexiWheel.24dbff610a87a3042200.PNG",
@@ -9,15 +9,15 @@
     "static/media/Beutiquee.PNG": "/static/media/Beutiquee.014c87d5f4b948e45adf.PNG",
     "static/media/alphaFinance2.png": "/static/media/alphaFinance2.100f3671a88107ba76e1.png",
     "static/media/taxtim.PNG": "/static/media/taxtim.9c2aac0fe8b47d37e808.PNG",
-    "static/media/alphaFinance.png": "/static/media/alphaFinance.9d38c72958952e3d30e9.png",
+    "static/media/alphaFinance.PNG": "/static/media/alphaFinance.9d38c72958952e3d30e9.PNG",
     "static/media/My Photo.jpg": "/static/media/My Photo.34ddc107e371a6e45516.jpg",
     "index.html": "/index.html",
     "main.c28edbf1.css.map": "/static/css/main.c28edbf1.css.map",
-    "main.8b812342.js.map": "/static/js/main.8b812342.js.map",
+    "main.4051aaf5.js.map": "/static/js/main.4051aaf5.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c28edbf1.css",
-    "static/js/main.8b812342.js"
+    "static/js/main.4051aaf5.js"
   ]
 }
